@@ -18,3 +18,23 @@ student.popitem()
 print(student)
 
 print(student.items())
+
+
+#unique list
+
+from array import array
+
+s = 'python'
+arr = array('u',s)
+
+arr.append('z')
+print(arr)
+
+arr.remove('z')
+print(arr)
+
+arr[0] = 'j'
+print(arr)
+
+new_str = "".join(arr)
+print(type(new_str))
