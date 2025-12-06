@@ -10,3 +10,4 @@ os.rmdir("C:/msg")
 os.listdir("C:/Users/rohit/python")
 os.listdir("C:/Users/rohit")
 
+
