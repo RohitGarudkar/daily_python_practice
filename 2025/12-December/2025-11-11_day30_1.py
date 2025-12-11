@@ -1,5 +1,5 @@
  #Declaring Multiple Exceptions
-try:
+try: 
     a = 10
     b = 'p'
     c = a/b
