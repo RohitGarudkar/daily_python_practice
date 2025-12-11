@@ -13,7 +13,7 @@ except (NameError) as e:
     print(e)
 except (ZeroDivisionError) as e:
     print(e)
-except (IntendationError) as e:
+except (IntendationError) as e: 
     print(e)
 else: 
     print("I am in Else part")
