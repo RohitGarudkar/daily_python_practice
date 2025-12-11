@@ -1,4 +1,4 @@
-# Declaring Multiple Exceptions
+#Declaring Multiple Exceptions
 try: 
     a = 10
     b = 'p'
