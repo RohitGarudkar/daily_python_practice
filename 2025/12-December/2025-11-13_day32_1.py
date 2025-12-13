@@ -5,7 +5,7 @@ class AgeException(Exception):
  
 
 def check_age(age):
-    if age < 0:
+    if age < 0: 
         raise AgeException("Age cannot be negative.")
     elif age < 18: 
         raise AgeException("You must be at least 18 years old.")
