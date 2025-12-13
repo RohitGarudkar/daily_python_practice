@@ -1,5 +1,5 @@
 #age_validation_with_custom_exception.py
-class AgeException(Exception):
+class AgeException(Exception): 
     """Custom exception for invalid age input."""
     pass
 
