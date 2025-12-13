@@ -2,7 +2,7 @@
 class AgeException(Exception): 
     """Custom exception for invalid age input."""
     pass
-
+ 
 
 def check_age(age):
     if age < 0:
