@@ -9,7 +9,7 @@ def check_age(age):
         raise AgeException("Age cannot be negative.")
     elif age < 18:
         raise AgeException("You must be at least 18 years old.")
-    else:
+    else: 
         print("Age is valid!")
 
 
