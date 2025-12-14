@@ -1,4 +1,3 @@
-
 #Exception Handling try...finally block
 
 try:
