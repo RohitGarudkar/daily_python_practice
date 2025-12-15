@@ -9,7 +9,7 @@ class MyError(Exception):
 
     #__str__ is to print the value
     def __str__(self):
-        return(repr(self.value))
+        return(repr(self.value)) 
 try:
     x = int(input("Enter a number upto 100 "))
     if x>100:
