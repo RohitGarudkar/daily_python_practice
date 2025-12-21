@@ -1,6 +1,5 @@
 #Custome Exception
 
-
 class MyError(Exception):
     
     #constroctor 
