@@ -11,7 +11,7 @@ try:
     age = int(input("Ente age :"))
     if age < 18:
         raise InvalidAge(age)
-    else:
+    else: 
         print(f"{age} is valid")
 except InvalidAge as e:
     print(f"Exception occured : Invalid AGE : {age}")
