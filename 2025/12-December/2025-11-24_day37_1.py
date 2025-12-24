@@ -1,4 +1,4 @@
- #Handling Custom Errors Using Exception Class
+#Handling Custom Errors Using Exception Class
 
 class ErrorInCode(Exception):
     
