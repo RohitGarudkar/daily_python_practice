@@ -2,7 +2,7 @@ frequently occuring code :
 
 class Solution:
     def maximumLengthSubstring(self, s: str) -> int:
-        count = {}
+        count = {} 
         i = res = 0
         for j, c in enumerate(s):
             count[c] = count.get(c, 0) + 1
