@@ -1,4 +1,4 @@
-  frequently occuring code :
+frequently occuring code :
 
 class Solution:
     def maximumLengthSubstring(self, s: str) -> int:
